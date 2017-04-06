@@ -38,8 +38,8 @@ work:
   <body>
     <!---This is the header--->
     <header class="grid">
-      <img class="logo" src="http://turquoise-cattle.cloudvent.net/images/Woolar_Logo_v2.png">
-      <nav>
+      <img class="logo" src="images/Woolar_Logo_v2.png">
+      <nav class=tablet-hide>
         <div class="nav-link">
           <a href="#whatwedo">What We Do</a>
         </div>
@@ -52,7 +52,39 @@ work:
         <div class="nav-link">
           <a href="#ourwork">Our Work</a>
         </div>
+        <div class="nav-link">
+          <a href="#contact">Contact Us</a>
+        </div>
       </nav>
+
+<!---This is the hamburger menu--->
+
+      <nav class="tablet-show">
+      <div class="burger-button">
+          <span class="burger-top"></span>
+          <span class="burger-middle"></span>
+          <span class="burger-bottom"></span>
+      </div>
+       <div class="burger-menu">
+        <ul>
+          <li>
+            <a href="#whatwedo">What We Do</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#results">Results</a>
+          </li>
+          <li>
+            <a href="#ourwork">Our Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        <ul>
+      </div>
+    </nav>
     </header>
     <!---Header banner section--->
     <section id="home" class="banner">
@@ -78,23 +110,23 @@ work:
       <div class="col-6_sm-12">
         <h3>Owen Hereford</h3>
         <h4>Partner</h4>
-        <p>
-          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+        <p class="bio">
+          Owen is an accomplished, versatile and globally experienced investment banker. He has an in-depth understanding of the credit financial markets and worked with research analysts and clients assessing the fundamental, technical and liquidity aspects to determine appropriate risk trades across the capital structure. Over the course of his career, Owen has been successful in identifying and converting opportunities into specific business strategies and investments. He spent more than 15 years in the UK working at Citi and then Goldman Sachs.
         </p>
       </div>
       <div class="col-6_sm-12 top-pic">
-        <img src="images/Owen.jpg" alt="Owen Hereford" height="300" width="300">
+        <img src="images/Owen.jpg" alt="Owen Hereford" class="partner-pic">
       </div>
     </section>
     <section class="grid">
       <div class="col-6_sm-12">
-        <img src="images/Damian.jpg" alt="Damian Horton" height="300" width="300">
+        <img src="images/Damian.jpg" alt="Damian Horton" class="partner-pic">
       </div>
       <div class="col-6_sm-12">
         <h3>Damian Horton</h3>
         <h4>Partner</h4>
-        <p>
-          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+        <p class="bio">
+          Damian is a commercial quantitative analyst with deep experience across the buy and sell sides of the structured credit industry. He has extensive technical capabilities in financial engineering, modelling, portfolio analysis, stress testing and arbitrage formation having worked in fixed income trading and structuring for JP Morgan, fixed income portfolio management at Pioneer Investments and Prudential Financial (Pramerica), and economic and regulatory modelling at Macquarie.
         </p>
       </div>
     </section>
@@ -131,16 +163,16 @@ work:
         </p>
     </section>
     <!---Footer section--->
-    <footer class="grid">
-      <div class="col-4">
-        <img class="logo" src="http://turquoise-cattle.cloudvent.net/images/Woolar_Logo_v2.png" alt="Woolar Logo">
+    <footer class="grid-middle">
+      <div class="col-4_sm-12">
+        <img class="logo" src="images/Woolar_Logo_v2.png" alt="Woolar Logo">
       </div>
-      <div class="col-4 footer-text">
+      <div class="col-4_sm-0_xs-0 footer-text">
         <p>
          Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
         </p>
       </div>
-      <div class="col-4 footer-links">
+      <div class="col-4_sm-12 footer-links">
         <i class="fa fa-facebook-square label-icon" aria-hidden="true"></i>
         <i class="fa fa-instagram label-icon" aria-hidden="true"></i>
         <i class="fa fa-envelope label-icon" aria-hidden="true"></i>
@@ -151,5 +183,8 @@ work:
         </p>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src=/js/script.js></script>
+
   </body>
 </html>
