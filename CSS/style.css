@@ -302,6 +302,17 @@ footer .footer-copyright {
   padding-bottom: 0px;
 }
 
+.thank-you {
+  background-color: #ecf0f1;
+}
+.floating-box {
+  margin: 30vh 40vw;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
 [class*=grid]>:not([class*=_md-0]).tablet-show {
   display:none;
 }
