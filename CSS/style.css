@@ -2,8 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Fjalla One', sans-serif;
+}
+
+body{
   font-family: 'Cantarell', sans-serif;
+    background-color: white;
 }
 
 h1, h2, h3, h4 {
@@ -16,8 +19,9 @@ h1 {
   color: black;
 }
 
-h1 .small {
+.small {
   font-size: 1.5rem;
+  font-family: 'Cantarell', sans-serif;
 }
 
 h2 {
@@ -25,7 +29,7 @@ h2 {
   color: #2c3e50;
 }
 
-h2.big-stat {
+.big-stat {
   font-size: 4.0rem;
 }
 
@@ -43,13 +47,11 @@ p {
   padding: 10px 10px;
   font-size: 1.2rem;
   line-height: 1.5;
-  font-family: 'Cantarell', sans-serif;
 }
 
 a {
   text-decoration: none;
   font-size: 14pt;
-  font-family: 'Cantarell', sans-serif;
   color: #3498db;
 }
 
@@ -57,9 +59,6 @@ img {
   max-width: 100%;
 }
 
-body {
-  background-color: white;
-}
 
 section {
   text-align: center;
@@ -69,6 +68,13 @@ header {
   background-color: white;
   height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header.grid {
+  margin:0;
+
 }
 
 header nav {
@@ -91,6 +97,10 @@ header nav .nav-link a {
   color: #2c3e50;
   text-decoration: none;
   line-height: 80px;
+}
+.nav-link a:hover {
+  color: #16a085;
+  transition-delay: 0.2s;
 }
 
 /*This is Dan's awesome hamburger menu*/
@@ -175,6 +185,20 @@ header nav .nav-link a {
     display: block;
 } */
 
+.banner {
+  background-image: url(/images/Syd_Resize_opt.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 25vh 0;
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+}
 
 .what-we-do {
   background-color: #ecf0f1;
@@ -208,20 +232,6 @@ img.partner-pic {
 p.bio {
   margin-left: 10px;
   margin-right: 10px
-}
-
-.banner {
-  background-image: url(/images/Syd_Resize_opt.png);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 0px;
-}
-
-.banner-content {
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 25vh 0;
-  min-height: calc(100vh - 80px);
 }
 
 .content-section {
