@@ -7,6 +7,7 @@
 body{
   font-family: 'Cantarell', sans-serif;
     background-color: white;
+    color; #1A1A1A;
 }
 
 h1, h2, h3, h4 {
@@ -16,7 +17,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 3.0rem;
-  color: black;
+  color: #1A1A1A;
 }
 
 .small {
@@ -89,10 +90,9 @@ header .logo {
 
 header nav .nav-link {
   display: inline-block;
-  height: 100%;
 }
 
-header nav .nav-link a {
+.nav-link a {
   padding: 20px 20px;
   color: #2c3e50;
   text-decoration: none;
@@ -295,6 +295,8 @@ footer {
 
 footer .logo {
   width: 150px;
+  background-color: #fff;
+  padding: 2px 4px;
 }
 
 footer .footer-text p {
