@@ -60,6 +60,9 @@ img {
   max-width: 100%;
 }
 
+img.desaturate {
+	filter: grayscale(100%);
+}
 
 section {
   text-align: center;
