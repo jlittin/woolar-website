@@ -217,9 +217,14 @@ header nav .nav-link {
 }
 
 ul {
- list-style-type: circle;
  font-size: 1.2rem;
+ text-align: left;
+ margin-left: 110px;
 }
+
+/*.services li:before {
+  content:"\2714\0020";
+}*/
 
 .contact {
   background-color: #ecf0f1;
