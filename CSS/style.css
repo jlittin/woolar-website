@@ -201,6 +201,7 @@ header nav .nav-link {
 
 .what-we-do {
   padding: 50px 10px;
+  text-align: left;
 }
 
 .our-team {
@@ -223,7 +224,7 @@ header nav .nav-link {
 
 .loan-industry {
   background-color: #ecf0f1;
-  padding: 50px;  
+  padding: 50px;
 }
 
 img.partner-pic {
