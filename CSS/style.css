@@ -216,8 +216,9 @@ header nav .nav-link {
   padding: 50px;
 }
 
-.services {
+ul {
  list-style:disc;
+ font-size: 1.2rem;
 }
 
 .contact {
