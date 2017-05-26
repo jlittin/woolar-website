@@ -201,6 +201,9 @@ header nav .nav-link {
 
 .what-we-do {
   padding: 50px 10px;
+}
+
+p.what-we-do {
   text-align: left;
 }
 
