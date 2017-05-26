@@ -217,7 +217,7 @@ header nav .nav-link {
 }
 
 ul {
- list-style: disc;
+ list-style-type: disc;
  font-size: 1.2rem;
 }
 
