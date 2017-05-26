@@ -203,10 +203,6 @@ header nav .nav-link {
   padding: 50px 10px;
 }
 
-p.what-we-do {
-  text-align: left;
-}
-
 .our-team {
   padding: 50px;
 }
@@ -218,6 +214,10 @@ p.what-we-do {
 
 .our-work {
   padding: 50px;
+}
+
+.services {
+ list-style:disc;
 }
 
 .contact {
